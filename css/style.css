@@ -161,7 +161,7 @@ a {
 .team-section,
 .occupation-section,
 .pros-section,
-.portfolio-items_wrapper {
+.portfolio-items__wrapper {
 	display: flex;
 	flex-wrap: wrap;
 }
