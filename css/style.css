@@ -209,6 +209,7 @@ a {
 	color: var(--darktext);
 	background-color: var(--bglight);
 	border-style: none;
+	border-radius: 4px;
 }
 
 .filter-btn:hover,
