@@ -29,15 +29,15 @@ body {
 	font-family: "Roboto", sans-serif;
 	font-style: normal;
 	font-weight: 400;
+	font-size: 14px;
+	letter-spacing: 0.03em;
 	color: var(--darktext);
 }
 
 address {
 	font-style: normal;
 	font-weight: 400;
-	font-size: 14px;
 	line-height: 24px;
-	letter-spacing: 0.03em;
 	color: var(--white);
 }
 
@@ -54,7 +54,6 @@ a {
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 31px;
-	letter-spacing: 0.03em;
 }
 
 /* .nav {
@@ -65,9 +64,7 @@ a {
 
 .nav-item,
 .contacts-item {
-	font-family: Roboto;
 	font-weight: 500;
-	font-size: 14px;
 	line-height: 16px;
 	letter-spacing: 0.02em;
 }
@@ -133,27 +130,24 @@ a {
 
 .pros-item__heading {
 	font-weight: bold;
-	font-size: 14px;
 	line-height: 16px;
-	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color: var(--darktext);
 }
 
 .pros-item__description {
-	font-size: 14px;
 	line-height: 24px;
-	letter-spacing: 0.03em;
 	color: var(--lighttext);
 }
 
+.pros-section__heading,
 .occupation-section__heading,
-.team-section__heading {
+.team-section__heading,
+.portfolio-section__heading {
 	font-weight: bold;
 	font-size: 36px;
 	line-height: 42px;
 	text-align: center;
-	letter-spacing: 0.03em;
 	color: var(--darktext);
 }
 
@@ -178,7 +172,6 @@ a {
 	font-size: 16px;
 	line-height: 19px;
 	text-align: center;
-	letter-spacing: 0.03em;
 	color: var(--darktext);
 }
 
@@ -186,7 +179,6 @@ a {
 	font-size: 16px;
 	line-height: 19px;
 	text-align: center;
-	letter-spacing: 0.03em;
 	color: var(--lighttext);
 }
 
@@ -200,12 +192,10 @@ a {
 } */
 
 .filter-btn {
-	font-family: Roboto;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 26px;
 	padding: 6px 22px;
-	letter-spacing: 0.03em;
 	color: var(--darktext);
 	background-color: var(--bglight);
 	border-style: none;
@@ -235,6 +225,5 @@ a {
 .portfolio-item__description {
 	font-size: 16px;
 	line-height: 30px;
-	letter-spacing: 0.03em;
 	color: var(--lighttext);
 }
